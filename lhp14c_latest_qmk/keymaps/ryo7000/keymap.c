@@ -60,18 +60,18 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    [DEFAULT] = LAYOUT( \
     LCTL(KC_1),  LCTL(KC_2),  LCTL(KC_3),  LCTL(KC_4),  LCTL(KC_5),  LCTL(KC_6),  LCTL(KC_7), \
     LALT(KC_1),  LALT(KC_2),  LALT(KC_3),  LALT(KC_4),  LALT(KC_5),  LALT(KC_6),  LALT(KC_7), \
-    LSFT(KC_2),  LSFT(KC_2),  LSFT(KC_3),  LSFT(KC_4),  LSFT(KC_5),  LSFT(KC_6),  TO(WASD),   \
+    LSFT(KC_1),  LSFT(KC_2),  LSFT(KC_3),  LSFT(KC_4),  LSFT(KC_5),  LSFT(KC_6),  TO(WASD),   \
     LCTL(KC_8),  LCTL(KC_9),  LCTL(KC_0),  LALT(KC_8),  LALT(KC_9),                           \
-                                                                     LSFT(KC_1),  JS_BUTTON0, \
-                                                                                  LSFT(KC_7)  \
+                                                                     LSFT(KC_7),  JS_BUTTON0, \
+                                                                                  LSFT(KC_8)  \
    ),
    [WASD] = LAYOUT( \
     LCTL(KC_1),  LCTL(KC_2),  LCTL(KC_3),  LCTL(KC_4),  LCTL(KC_5),  LCTL(KC_6),  LCTL(KC_7), \
     LALT(KC_1),  LALT(KC_2),  LALT(KC_3),  LALT(KC_4),  LALT(KC_5),  LALT(KC_6),  LALT(KC_7), \
-    LSFT(KC_2),  LSFT(KC_2),  LSFT(KC_3),  LSFT(KC_4),  LSFT(KC_5),  LSFT(KC_6),  TO(DEFAULT), \
+    LSFT(KC_1),  LSFT(KC_2),  LSFT(KC_3),  LSFT(KC_4),  LSFT(KC_5),  LSFT(KC_6),  TO(DEFAULT), \
     LCTL(KC_8),  LCTL(KC_9),  LCTL(KC_0),  LALT(KC_8),  LALT(KC_9),                           \
-                                                                     LSFT(KC_1),  JS_BUTTON0, \
-                                                                                  LSFT(KC_7)  \
+                                                                     LSFT(KC_7),  JS_BUTTON0, \
+                                                                                  LSFT(KC_8)  \
     ),
 };
 
